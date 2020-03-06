@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PAWSSHOP</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/mobile.css">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <script src="scripts/script.js"></script>
+</head>
+<body>
+  <!-- Aquí empieza el navbar -->
+  <nav class="fadeIn">
+    <div class="image_brand">
+      <a href="index.html"> <img src="images/ic_logo.svg" alt=""></a>
+    </div>
+    <div class="nav_options">
+        <ul>
+          <li> <a href="#">FAQs</a></li>
+          <li> <a href="producto.html">PRODUCTO/DESCRIPCIÓN</a></li>
+        </ul>
+    </div>
+  </nav>
+  <!-- Aquí acaba el navbar -->
+
+<!-- Aquì comienza container -->
+<div class="container">
+  <div class="row">
+    <div class="col-04">
+      <div class="modulo_pago">
+        <div class="modulo">
+          <div class="modulo_pago_images">
+            <img src="images/ic_producto1.svg" alt="">
+          </div>
+          <h3> Producto 1.</h3>
+          <p> Esto es el producto 1, son productos hechos de materiales ecològicos.</p>
+          <h4> $550 </h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-08">
+      <div class="modulo_pago">
+        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HWJNLGMXRK95C" method="post">
+          <label for="name"> Nombre: </label>
+          <br>
+          <input type="text" placeholder="Nombre" name="nombre" class="data">
+          <br>
+          <br>
+          <label for="email"> Correo electrónico: </label>
+          <br>
+          <input type="email" placeholder="Email" name="email" class="data">
+          <br>
+          <br>
+          <label for="phonenumber"> Teléfono: </label>
+          <br>
+          <input type="phonenumber" placeholder="Teléfono" name="phonenumber" class="data">
+          <br>
+          <br>
+          <input type="submit" name="submit" value="Comprar ahora" class="main_button">
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- Aquìfinaliza container -->
+
+
+    <!-- Inicio de footer -->
+  <footer>
+    <div class="option">Términos y condiciones</div>
+    <div class="option">contacto@brand.com</div>
+  </footer>
+  <!-- Fin de Footer -->
+
+
+</body>
+</html>
